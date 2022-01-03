@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.head{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    background-color: white;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.head .navber ul{
+    margin: 0;
+    list-style: none;
+    display: flex;
+}
+.head .navber ul li{
+    margin: 0px 10px;
+    padding: 5px;
+}
+.head .navber ul li a{
+    text-decoration: none;
+    font-size: 18;
+    color: black;
+}
